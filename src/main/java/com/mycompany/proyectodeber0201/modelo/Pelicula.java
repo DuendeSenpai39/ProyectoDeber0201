@@ -63,4 +63,9 @@ public class Pelicula {
         this.porcentajeAceptacion = porcentajeAceptacion;
     }
 
+    @Override
+    public String toString() {
+        return "Pelicula{" + "nombre=" + nombre + ", director=" + director + ", year=" + year + ", recaudacion=" + recaudacion + ", porcentajeAceptacion=" + porcentajeAceptacion + '}';
+    }
+
 }
