@@ -17,12 +17,13 @@ public class ProyectoDeber0201 {
     public static void main(String[] args) {
         
        var peliculaControl = new PeliculaControl();
-       var datitos = new String[5];
+       var datitos = new String[6];
        datitos[0]="1";
-       datitos[1]="";
-       datitos[2]="";
-       datitos[3]="";
-       datitos[4]="";
+       datitos[1]="Titanic";
+       datitos[2]="James Cameron";
+       datitos[3]="1997";
+       datitos[4]="2.202";
+       datitos[5]="94%";
 
  
        
