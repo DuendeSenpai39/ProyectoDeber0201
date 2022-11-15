@@ -39,8 +39,8 @@ public class PeliculaControl {
         var pelicula = new Pelicula(codigo,nombre,director,year,recaudacion,porcentajeAceptacion);
         this.peliculaServiceImpl.crear(pelicula);
         retorno ="Pelicula: "+pelicula.getNombre()+" Director: "+pelicula.getDirector()
-                +" Porcentaje de Aceptacion: "+pelicula.getPorcentajeAceptacion()
-                +" Recaudacion de:"+pelicula.getRecaudacion()+" miles de millones, siendo pelicula de: "
+                +"n/ Porcentaje de Aceptacion: "+pelicula.getPorcentajeAceptacion()
+                +"n/ Recaudacion de:"+pelicula.getRecaudacion()+" miles de millonesc n/ Pelicula ano: "
                 +pelicula.getYear()+ " a sido creado correctamente /n";
         return retorno;
     }
