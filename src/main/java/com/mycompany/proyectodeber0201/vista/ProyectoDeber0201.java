@@ -5,6 +5,8 @@
 
 package com.mycompany.proyectodeber0201.vista;
 
+import com.mycompany.proyectodeber0201.Controlador_Pelicula.PeliculaControl;
+
 /**
  *
  * @author Jose
@@ -12,6 +14,18 @@ package com.mycompany.proyectodeber0201.vista;
 public class ProyectoDeber0201 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-}
+        
+       var peliculaControl = new PeliculaControl();
+       var datitos = new String[5];
+       datitos[0]="10";
+       datitos[1]="";
+       datitos[2]="";
+       datitos[3]="";
+       datitos[4]="";
+
+       
+       System.out.print(peliculaControl.crear(datitos));
+       
+    }   
+}   
+

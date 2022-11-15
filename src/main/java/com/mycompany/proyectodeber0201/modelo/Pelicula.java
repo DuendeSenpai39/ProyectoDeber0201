@@ -9,20 +9,28 @@ package com.mycompany.proyectodeber0201.modelo;
  * @author Jose
  */
 public class Pelicula {
+    private int codigo;
     private String nombre;
     private String director;
     private int year;
     private double recaudacion;
     private String porcentajeAceptacion;
 
-    public Pelicula(String nombre, String director, int year, double recaudacion, String porcentajeAceptacion) {
+    public Pelicula(int Codigo, String nombre, String director, int year, double recaudacion, String porcentajeAceptacion) {
+        this.codigo = codigo;
         this.nombre = nombre;
         this.director = director;
         this.year = year;
         this.recaudacion = recaudacion;
         this.porcentajeAceptacion = porcentajeAceptacion;
     }
+    public int getCodigo() {
+        return codigo;
+    }
 
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
     public String getNombre() {
         return nombre;
     }
