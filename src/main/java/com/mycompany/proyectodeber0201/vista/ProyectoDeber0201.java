@@ -34,7 +34,7 @@ public class ProyectoDeber0201 {
        datito[2]="Agente K";
        datito[3]="42";
        datito[4]="184";
-       datitos[5]="Blade Runner 2049";
+       datito[5]="Blade Runner 2049";
        
        System.out.print(peliculaControl.crear(datitos));
        System.out.print(personajeControl.crear(datito));
