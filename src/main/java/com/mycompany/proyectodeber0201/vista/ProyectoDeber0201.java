@@ -28,13 +28,14 @@ public class ProyectoDeber0201 {
  
        
        var personajeControl = new PersonajeControl();
-       var datito = new String[5];
+       var datito = new String[6];
        datito[0]="2";
-       datito[1]="";
-       datito[2]="";
-       datito[3]="";
-       datito[4]="";
-
+       datito[1]="Ryan Gosling";
+       datito[2]="Agente K";
+       datito[3]="42";
+       datito[4]="184";
+       datitos[5]="Blade Runner 2049";
+       
        System.out.print(peliculaControl.crear(datitos));
        System.out.print(personajeControl.crear(datito));
        
