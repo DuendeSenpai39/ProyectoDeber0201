@@ -4,10 +4,18 @@
  */
 package com.mycompany.proyectodeber0201.Pelicula_Service;
 
+import com.mycompany.proyectodeber0201.modelo.Pelicula;
+import java.util.List;
+
 /**
  *
  * @author Jose
  */
-public class PeliculaService {
+public interface PeliculaService {
+    public abstract void crear(Pelicula pelicula);
+    public abstract void modificar(int codigo, Pelicula PeliculaModificado);
+    public abstract void eliminar(int codigo);
+    public abstract List<Pelicula> listar();
     
 }
+
