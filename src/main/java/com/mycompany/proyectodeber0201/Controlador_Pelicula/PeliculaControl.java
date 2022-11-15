@@ -26,8 +26,8 @@ public class PeliculaControl {
         var director=data[2];
         var year=Integer.valueOf(data[3]);
         var recaudacion = Double.valueOf(data[4]);
-        var porcentajeAceptacion = data[5]
-                ;
+        var porcentajeAceptacion = data[5];
+        
         if (recaudacion<0){
             retorno+= "No valido";
            
