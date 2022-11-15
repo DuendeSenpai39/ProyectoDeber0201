@@ -14,15 +14,15 @@ public class Personaje {
     private String papel;
     private int edad;
     private int altura;
-    private String peliculasActuadas;
+    private String peliculaActuada;
 
-    public Personaje(int codigo, String nombre, String papel, int edad, int altura, String peliculasActuadas) {
+    public Personaje(int codigo, String nombre, String papel, int edad, int altura, String peliculaActuada) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.papel = papel;
         this.edad = edad;
         this.altura = altura;
-        this.peliculasActuadas = peliculasActuadas;
+        this.peliculaActuada = peliculaActuada;
     }
     public int getCodigo() {
         return codigo;
@@ -64,16 +64,16 @@ public class Personaje {
     }
 
     public String getPeliculasActuadas() {
-        return peliculasActuadas;
+        return peliculaActuada;
     }
 
-    public void setPeliculasActuadas(String peliculasActuadas) {
-        this.peliculasActuadas = peliculasActuadas;
+    public void setPeliculasActuadas(String peliculaActuada) {
+        this.peliculaActuada = peliculaActuada;
     }
 
     @Override
     public String toString() {
-        return "Personaje{" + "nombre=" + nombre + ", papel=" + papel + ", edad=" + edad + ", altura=" + altura + ", peliculasActuadas=" + peliculasActuadas + '}';
+        return "Personaje{" + "nombre=" + nombre + ", papel=" + papel + ", edad=" + edad + ", altura=" + altura + ", peliculasActuadas=" + peliculaActuada + '}';
     }
     
 }
