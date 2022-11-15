@@ -34,7 +34,7 @@ public class ProyectoDeber0201 {
        datito[2]="Jack Dawson";
        datito[3]="48";
        datito[4]="183";
-       datito[5]="Titanic";
+       datito[5]="El renacido";
        
        System.out.print(peliculaControl.crear(datitos));
        System.out.print(personajeControl.crear(datito));
