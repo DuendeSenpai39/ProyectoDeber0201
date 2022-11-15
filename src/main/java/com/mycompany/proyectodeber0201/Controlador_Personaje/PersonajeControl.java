@@ -38,8 +38,8 @@ public class PersonajeControl {
         }
         var personaje = new Personaje(codigo,nombre,papel,edad,altura,peliculaActuada);
         this.personajeServiceImpl.crear(personaje);
-        retorno ="Actor: "+personaje.getNombre()+" Papel:"+ personaje.getPapel()+" n/"
-                +"Edad:"+personaje.getEdad()+" Altura:"+ personaje.getAltura()+" n/"
+        retorno ="Actor: "+personaje.getNombre()+" Papel:"+ personaje.getPapel()+" \n"
+                +"Edad:"+personaje.getEdad()+" Altura:"+ personaje.getAltura()+" \n"
                 +"Pelicula: "+personaje.getPeliculasActuadas();
         return retorno;
     }
