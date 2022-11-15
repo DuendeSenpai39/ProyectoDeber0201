@@ -6,6 +6,7 @@
 package com.mycompany.proyectodeber0201.vista;
 
 import com.mycompany.proyectodeber0201.Controlador_Pelicula.PeliculaControl;
+import com.mycompany.proyectodeber0201.Controlador_Personaje.PersonajeControl;
 
 /**
  *
@@ -17,15 +18,26 @@ public class ProyectoDeber0201 {
         
        var peliculaControl = new PeliculaControl();
        var datitos = new String[5];
-       datitos[0]="10";
+       datitos[0]="1";
        datitos[1]="";
        datitos[2]="";
        datitos[3]="";
        datitos[4]="";
 
+ 
        
+       var personajeControl = new PersonajeControl();
+       var datito = new String[5];
+       datito[0]="2";
+       datito[1]="";
+       datito[2]="";
+       datito[3]="";
+       datito[4]="";
+
        System.out.print(peliculaControl.crear(datitos));
+       System.out.print(personajeControl.crear(datito));
        
     }   
-}   
+ }   
+
 
