@@ -25,7 +25,7 @@ public class ProyectoDeber0201 {
        datitos[4]="2.202";
        datitos[5]="94%";
 
-       System.out.print("-------------------------------------------------");
+       System.out.println("-------------------------------------------------");
        
        var personajeControl = new PersonajeControl();
        var datito = new String[6];
