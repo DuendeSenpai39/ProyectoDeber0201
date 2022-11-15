@@ -22,17 +22,37 @@ public class PersonajeServiceImpl implements PersonajeService {
 
     @Override
     public void crear(Personaje personaje) {
-        
+        this.personajeList.add(personaje);
     }
 
     @Override
     public void modificar(int codigo, Personaje PersonajeModificado) {
-        
+        var indice = 0;
+        for (var personaje: this.personajeList) {
+            if (personaje.getCodigo() == codigo) {
+                this.personajeList.set(indice, PersonajeModificado);
+                break;
+            } else {
+                indice++;
+
+            }
+
+        }
     }
 
     @Override
     public void eliminar(int codigo) {
-        
+         var indice = 0;
+        for (var personaje: this.personajeList) {
+            if (personaje.getCodigo() == codigo) {
+                this.personajeList.remove(indice);
+                break;
+            } else {
+                indice++;
+
+            }
+
+        }
     }
     @Override
     public List<Personaje> listar() {
