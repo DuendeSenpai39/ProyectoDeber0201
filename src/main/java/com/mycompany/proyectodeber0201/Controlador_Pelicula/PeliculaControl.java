@@ -41,7 +41,7 @@ public class PeliculaControl {
         retorno ="Pelicula: "+pelicula.getNombre()+" Director: "+pelicula.getDirector()+"\n"
                 +"Porcentaje de Aceptacion: "+pelicula.getPorcentajeAceptacion()+"\n"
                 +"Recaudacion de:"+pelicula.getRecaudacion()+" miles de millones de dolares \n"
-                +"Pelicula ano: "+pelicula.getYear()+ " a sido creado correctamente";
+                +"Pelicula de: : "+pelicula.getYear();
         return retorno;
     }
 
